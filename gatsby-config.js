@@ -9,7 +9,7 @@ module.exports = {
     },
   },
   plugins: [
-		`gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -54,7 +54,6 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
